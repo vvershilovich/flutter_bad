@@ -10,7 +10,7 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  late String counter = "0";
+  late String counter;
   Isolate? newIsolate;
 
   MyApp({Key? key}) : super(key: key);
